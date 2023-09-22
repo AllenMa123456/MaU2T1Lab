@@ -1,3 +1,4 @@
+
 public class Cat {
 
     // instance variables
@@ -14,11 +15,7 @@ public class Cat {
 
     // method that introduces the Cat
     public void introduce() {
-        if (age < 7) {
-            System.out.println("Hello my name is " + name + " and I am a younger cat.");
-        } else {
-            System.out.println("Hello my name is " + name + " and I am an older cat.");
-        }
+        System.out.print("Hello, my name is " + name);
     }
 
 
@@ -29,4 +26,5 @@ public class Cat {
         System.out.println("Weight: " + weight);
     }
 }
+
 
